@@ -45,8 +45,7 @@ def run_jarvis():
       engine_talk('I am jarvis a k a your virtual assistant. how can i help you ?')
 
     elif 'can you do' in command:
-      print('''I can play songs on youtube, tell you a joke, search on wikipedia, tell date and time, find your location, locate area on map,
-open different websites like instagram, youtube, gmail, github, stackoverflow and searches on google. How may i help you ?''')
+      print('''I can play songs on youtube, tell you a joke, search on wikipedia, tell date and time, find your location, locate area on map, open different websites like instagram, youtube, gmail, github, stackoverflow and searches on google. How may i help you ?''')
       engine_talk('''i can play songs on youtube, tell you a joke, search on wikipedia, tell date and time, find your location, locate area on map, open different websites like instagram, youtube, gmail, github, stackoverflow and searches on google. How may i help you ?''')
     
     elif 'play' in command:
